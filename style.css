@@ -69,13 +69,13 @@ border-radius: 20px;
 }
 .backimg{
     width: 80%;
-    
 }
 .img{
     
  border-top-left-radius: 300px;
  border-bottom-left-radius: 300px;
-    float: right;
+
+    
     
 }
 .more{
@@ -136,7 +136,7 @@ a{
     width: 50%;
 }
 
-@media (max-width:600px){
+@media only screen and (max-width:600px){
   
 
  
@@ -197,4 +197,22 @@ a{
     width: 80%;
     
 }
+.img{
+    
+   display: none;
+}
+.info{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    }
+    .backimg{
+        display: none;
+    }
+   
 }
