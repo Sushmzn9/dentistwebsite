@@ -221,8 +221,14 @@ a{
 
 @media only screen and (max-width:600px){
   
-
- 
+.hero{
+    display: flex;
+    background-color: blanchedalmond;
+    /* width: 100%; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
     .nav{
         list-style: none;
@@ -277,12 +283,13 @@ a{
     color: black;
 }
 .backimg{
-    width: 80%;
+    width: 50%;
     
 }
 .img{
     
-   display: none;
+    border-top-left-radius: 300px;
+ border-bottom-left-radius: 300px;
 }
 .info{
 
@@ -295,7 +302,73 @@ a{
     text-align: center;
     }
     .backimg{
-        display: none;
+        width: 385%;
     }
-   
-}
+    .space{
+        margin-top: 500px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    #imgbac{
+        width: 100%;
+        margin-top: 10px;
+       
+    
+    }
+    .about{
+        position: relative;
+        color: rgb(241, 237, 237);
+        text-align: center;
+    }
+    
+    .section-about{
+        position: absolute;
+        text-align: center;
+        font-size: 8px;
+        color: rgb(0, 0, 0);
+        top: 10px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1px;
+        gap: 1rem;
+        width: 347px;
+        left: 17px;
+        margin: 0px;
+    }
+    
+    #us{
+        color:rgb(241, 149, 9);
+        font-size: 10px;
+      
+    }
+    .medium{
+        text-align: center;
+        margin-top: 50px;
+ 
+    }
+    
+    .review{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        
+      
+    }
+        
+    
+    
+    #rev-con{
+        margin-top: 25px;
+        width: 62%;
+        background-color: blanchedalmond;
+        height: 100vh;
+        text-align: center;
+        padding-top: 23px;
+        font-size: 10px;
+    }
+    
+    }
