@@ -18,8 +18,9 @@ color: black;
     }
 
  .btn :hover{
-    color: blueviolet;
-    box-shadow: rgb(141, 141, 142);
+color: cadetblue;
+
+
  }
 .logo{
    
@@ -77,6 +78,9 @@ border-radius: 20px;
 }
 .backimg{
     width: 80%;
+    display: flex;
+    justify-content: end;
+ 
 }
 .img{
     
@@ -89,13 +93,15 @@ border-radius: 20px;
 .more{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 .box{
-    width: 20%;
+    width: 21%;
     background-color: blanchedalmond;
-    height: 20vh;
+    height: 22vh;
     text-align: center;
     padding-top: 100px;
+    border-radius: 15px;
     
 }
 a{
@@ -186,35 +192,76 @@ a{
 }
 
 .review{
-    display: grid;
+    /* display: grid;
    
-    grid-template-columns: auto auto auto;
-  
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px; */
     width: 100%;
     height: 400px;
     margin-top: 45px;
     /* margin-left:60px;
     margin-right: 60px; */
-    justify-content: center;
-  
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    gap: 2rem;
 }
-    
 
 
 #rev-con{
-    width: 80%;
+    width: 31%;
     background-color: blanchedalmond;
-    height: 25vh;
+    height: 28.5vh;
     text-align: center;
-    padding-top: 50px;
-
+    padding-top: 55px;
+    
+    border-radius: 20%;
+    border: 2px dotted rgb(0, 0, 0);
 }
 
-
-
-
-
-
+.line{
+    margin-top: 25px;
+border: 2px dotted rgb(0, 0, 0);
+}
+ 
+.mail{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    margin-top: 100px;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 40%;
+}
+.box-con{
+    width: 80%;
+   display: flex;
+   justify-content:right;
+   align-items: center;
+ 
+}
+.con-img{
+    width: 80%;
+    gap: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: normal;
+    text-align: center;
+    
+}
+.box-pad{
+    margin-left: 65px;
+}
+.bc{
+    margin: 70px;
+}
+.img-con{
+   width: 650px;
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
 
 
 
