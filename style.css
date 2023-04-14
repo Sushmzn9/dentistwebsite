@@ -98,9 +98,12 @@ border-radius: 20px;
 .box{
     width: 21%;
     background-color: blanchedalmond;
-    height: 22vh;
+    height: max-content;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
     border-radius: 15px;
     
 }
@@ -209,19 +212,19 @@ a{
 
 
 #rev-con{
-    width: 31%;
+  
+    width: 21%;
     background-color: blanchedalmond;
-    height: 28.5vh;
+    height: max-content;
     text-align: center;
-    padding-top: 55px;
-    
-    border-radius: 20%;
-    border: 2px dotted rgb(0, 0, 0);
+ padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .line{
-    margin-top: 25px;
-border: 2px dotted rgb(0, 0, 0);
+   
+border: 1px solid rgb(0, 0, 0);
 }
  
 .mail{
