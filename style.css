@@ -60,6 +60,8 @@ font-size: 25px;
 .hero{
 
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:blanchedalmond;
 
 width: 100%;
@@ -68,22 +70,20 @@ h1{
     margin: 0px;
 }
 .info{
-
-padding-left: 20px;
-padding-right: 20px;
-padding-top: 150px;
-width: 80%;
-text-align: center;
-border-radius: 20px;
+width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .backimg{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: end;
  
 }
 .img{
-    
+    width: 100%;
  border-top-left-radius: 300px;
  border-bottom-left-radius: 300px;
 
@@ -98,7 +98,7 @@ border-radius: 20px;
 .box{
     width: 21%;
     background-color: blanchedalmond;
-    height: max-content;
+    height: initial;
     text-align: center;
     padding-top: 30px;
     padding-right: 10px;
@@ -191,7 +191,8 @@ a{
 }
 .medium{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .review{
@@ -200,7 +201,7 @@ a{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px; */
     width: 100%;
-    height: 400px;
+    height: 200px;
     margin-top: 45px;
     /* margin-left:60px;
     margin-right: 60px; */
@@ -214,7 +215,7 @@ a{
 #rev-con{
   
     width: 21%;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     height: max-content;
     text-align: center;
  padding: 10px;
@@ -231,22 +232,23 @@ border: 1px solid rgb(0, 0, 0);
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    background-color: blanchedalmond;
-    border: 2px solid black;
+    background-color:#a3a6c4c2;
+    
     margin-top: 100px;
-    border-top-right-radius: 40%;
-    border-bottom-left-radius: 40%;
-    border-top-left-radius: 40%;
+    
 }
 .box-con{
-    width: 80%;
+    width: 100%;
    display: flex;
-   justify-content:right;
+   flex-direction: column;
+   justify-content:center;
    align-items: center;
+   padding: 20px;
+   flex-wrap: nowrap;
  
 }
 .con-img{
-    width: 80%;
+    width: 100%;
     gap: 2rem;
     display: flex;
     justify-content: flex-end;
@@ -255,20 +257,45 @@ border: 1px solid rgb(0, 0, 0);
     
 }
 .box-pad{
-    margin-left: 65px;
+    margin-left: 5px;
 }
 .bc{
-    margin: 70px;
+    margin: 10px;
 }
 .img-con{
-   width: 650px;
-    border-bottom-left-radius: 40%;
-    border-top-right-radius: 40%;
+   width: 100%;
+   border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+   
+}
+ .btn-1{
+    padding: 6px;
+    border-width: 3px;
+    background-color: burlywood;
+    cursor: pointer;
+    color: black;
+    float: right;
+
+ }
+/* .ring{
+    border: 2px solid black;
+   background-color: rgb(225, 28, 28);
+   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-
-
-
+label{
+    font-size: 20px;
+}
+input{
+    font-size: 16px;
+    
+} */
+/* mobile screen */
 @media only screen and (max-width:600px){
   
 .hero{
@@ -405,12 +432,7 @@ border: 1px solid rgb(0, 0, 0);
         justify-content: center;
         align-items: center;
         margin-top: 15px;
-        
-      
     }
-        
-    
-    
     #rev-con{
         margin-top: 25px;
         width: 62%;
@@ -420,5 +442,4 @@ border: 1px solid rgb(0, 0, 0);
         padding-top: 23px;
         font-size: 10px;
     }
-    
-    }
+}
